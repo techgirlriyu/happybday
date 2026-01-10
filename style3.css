@@ -1,0 +1,41 @@
+body {
+    align-items: center;
+    justify-items: center;
+    background-color: blue;
+}
+
+.editbg {
+    background-image: url(nightsky.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    position: relative;
+    font-weight: bold;
+    font-size: 2em;
+    font-family:monospace;
+    text-align: center;
+}
+
+.ee video {
+    width: 300px;
+}
+
+.e3 {    
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(9, 6, 135);
+    color: white;
+    text-decoration: none;
+    border-radius: 20%;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15px;
+}
