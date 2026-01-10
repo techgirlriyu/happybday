@@ -1,0 +1,103 @@
+body {
+    background-color:rgb(250, 66, 128);
+    align-items: center;
+    justify-items: center;
+}
+
+.backpic {
+    background-image: url(pink_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+    position: relative;
+    font-weight: bold;
+    font-size: 2em;
+    font-family:monospace;
+}
+
+.b1 {
+    position: absolute;
+    top: 150px;
+    background-image: url(photoscroll.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 270px;
+    mix-blend-mode:multiply;
+    border: none;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%,100% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+}
+
+.b2 {
+    position: absolute;
+    top: 310px;
+    background-image: url(memories.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 180px;
+    mix-blend-mode:multiply;
+    border: none;
+    animation: pulse 2s infinite;
+    text-decoration: none;
+    
+}
+@keyframes pulse {
+    0%,100% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+}
+
+.b3 {
+    position: absolute;
+    top: 450px;
+     background-image: url(letter.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 200px;
+    mix-blend-mode:multiply;
+    border: none;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%,100% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+}
+
+p {
+    color: rgba(0, 0, 0, 0);
+}
+
+.u3 {    
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(130, 7, 87);
+    color: white;
+    text-decoration: none;
+    border-radius: 20%;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15px;
+    position: relative;
+    top: 250px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%,100% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+}
