@@ -51,7 +51,7 @@
 .top {
   height: 40px;
   width: 340px;
- 
+  align-items: center;
 }
 
 .p3 {
