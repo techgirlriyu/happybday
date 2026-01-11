@@ -51,12 +51,12 @@
 .top {
   height: 40px;
   width: 340px;
-  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .p3 {
-    position: absolute;
-    left: 500px;
+    align-self: center;
     display: inline-block;
     padding: 5px 10px;
     background-color: rgb(107, 7, 7);
